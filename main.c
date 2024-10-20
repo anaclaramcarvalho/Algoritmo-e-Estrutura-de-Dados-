@@ -1,19 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include"listae.h"
+#include "exercicioE.h"
 
-int main(){
-   char texto[MAX_TEXTO];
-    ContagemCaractere contagem[NUM_CARACTERES];
-    printf("Digite um texto (maximo de %d caracteres):\n", MAX_TEXTO);
-    fgets(texto, sizeof(texto), stdin);
-    if (strlen(texto) > 0 && texto[strlen(texto) - 1] == '\n') {
-        texto[strlen(texto) - 1] = '\0';
+int main() {
+    Lista lista;
+    lista = criar();
+    Lista entrada, pares, impares;
+    int tamanhoEntrada = 6;
+    int dadosEntrada[] = {1, 2, 3, 4, 5, 6};
+    inicializarLista(&entrada, tamanhoEntrada);
+    entrada.dados = dadosEntrada;
+    int resultado = separarParesImpares(&entrada, &pares, &impares);
+    if (resultado == 0) {
+        printf("Numeros Pares: ");
+        for (int i = 0; i < pares.tamanho; i++) {
+            printf("%d ", pares.dados[i]);
+        }
+        printf("\nNumeros Impares: ");
+        for (int i = 0; i < impares.tamanho; i++) {
+            printf("%d ", impares.dados[i]);
+        }
+        liberarLista(&entrada);
+        liberarLista(&pares);
+        liberarLista(&impares);
+
+        return 0;
+    } else {
+        printf("Erro na operacao.\n");
+        return resultado;
     }
-    inicializarContagem(contagem);
-    for (int i = 0; texto[i] != '\0'; i++){
-        atualizarContagem(contagem, texto[i]);
-    }
-    exibirHistograma(contagem);
-    return 0;
 }
