@@ -1,16 +1,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef struct livro{
+    char titulo[100];
+    int anodeedicao;
+    int numpag;
+    float preco;
+}Livro;
+
 int main(){
-    int atual = 0,nasci = 0, idade = 0;
-    printf("Digite o ano atual: ");
-    scanf("%d",&atual);
-    printf("Digite o ano em que voce nasceu: ");
-    scanf("&d", &nasci);
-    idade = atual - nasci;
-    printf("\nA sua idade e %d.", idade);
-    idade = 2030 - nasci;
-    printf("\nEm 2030 voce tera %d", idade);
+    Livro livro[5];
+    int totalpag = 0;
+    for (int i = 0; i < 5; i++){
+        printf("=======================================");
+        printf("\nLivro %d:\n", i++);
+        printf("Titulo: ");
+        scanf("%s", &livro[i].titulo);
+        printf("Ano de Edicao: ");
+        scanf("%d", &livro[i].anodeedicao);
+        printf("Numero de Paginas: ");
+        scanf("%d", &livro[i].numpag);
+        printf("Preco: ");
+        scanf("%f", &livro[i].preco);
+        printf("=======================================");
+        printf("\n");
+}
+    for (int i = 0; i < 5; i++) {
+        totalpag += livro[i].numpag;
+}
+    float mediapag = totalpag / 5;
+    printf("Media do numero de paginas dos livros: %.2f\n", mediapag);
     return 0;
 }
-//Durante a aula eu fiz ate a linha 11 e funcionou perfeitamente, depois eu vi que tinha a parte de 2030 e completei, porem não está querendo receber o ano do nascimento, ele só recebe o atual e para o programa.
+//Estava funcionando porem deu problema na linha 12 e eu não entendi o problema para resolver.
