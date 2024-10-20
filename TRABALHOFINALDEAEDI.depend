@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1713109043 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\trabalhoaedi\trabalhofinaldeaedi\pilha-int.c
+	<stdlib.h>
+	"pilha-int.h"
+
+1713109026 c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\trabalhoaedi\trabalhofinaldeaedi\pilha-int.h
+
+1713108789 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\trabalhoaedi\trabalhofinaldeaedi\pilha.c
+	<stdlib.h>
+	"pilha.h"
+
+1713108817 c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\trabalhoaedi\trabalhofinaldeaedi\pilha.h
+
+1713108612 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\trabalhoaedi\trabalhofinaldeaedi\lista.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"lista.h"
+
+1713108628 c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\trabalhoaedi\trabalhofinaldeaedi\lista.h
+
+1713108493 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\trabalhoaedi\trabalhofinaldeaedi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"lista.h"
+	"pilha.h"
+	"pilha-int.h"
+
