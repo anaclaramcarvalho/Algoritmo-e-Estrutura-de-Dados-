@@ -2,12 +2,15 @@
 #include <stdlib.h>
 
 int main(){
-   printf("Entre com o valor: ");
-    int n;
-    scanf("%d",&n);
-    int i,acc = 1;
-    for (i=n;i>0;i--)
-    acc = acc * i;
-    printf("O valor do fatorial de %d eh %d",n,acc);
+    int atual = 0,nasci = 0, idade = 0;
+    printf("Digite o ano atual: ");
+    scanf("%d",&atual);
+    printf("Digite o ano em que voce nasceu: ");
+    scanf("&d", &nasci);
+    idade = atual - nasci;
+    printf("\nA sua idade e %d.", idade);
+    idade = 2030 - nasci;
+    printf("\nEm 2030 voce tera %d", idade);
+    return 0;
 }
-//achei tranquilo , fiz o teste com o 0 porem nao deu certo e ai lembrei que todo numero multiplicado por 0 é 0 , logo essa não seria a solução
+//Durante a aula eu fiz ate a linha 11 e funcionou perfeitamente, depois eu vi que tinha a parte de 2030 e completei, porem não está querendo receber o ano do nascimento, ele só recebe o atual e para o programa.
