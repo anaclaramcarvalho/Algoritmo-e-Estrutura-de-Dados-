@@ -1,5 +1,9 @@
 # depslib dependency file v1.0
-1705772147 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista02\exercicioa\main.c
+1707080488 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista04\exercicioa\exercicioa.c
 	<stdio.h>
 	<stdlib.h>
+	<string.h>
+	"exercicioA.h"
+
+1707080488 c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista04\exercicioa\exercicioa.h
 
