@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1708891403 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista05\exerciciod\main.c
+	<stdio.h>
+	<stdlib.h>
+	"listad.h"
+
+1708891320 c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista05\exerciciod\listad.h
+
+1708891320 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista05\exerciciod\listad.c
+	<stdio.h>
+	<stdlib.h>
+	"listad.h"
+

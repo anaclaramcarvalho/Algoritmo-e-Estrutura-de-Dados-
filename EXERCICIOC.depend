@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1708874724 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista05\exercicioc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"listac.h"
+
+1708874724 c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista05\exercicioc\listac.h
+

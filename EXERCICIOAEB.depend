@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1708798518 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista05\exercicioaeb\main.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
+1708785976 c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista05\exercicioaeb\lista.h
+
+1709075300 source:c:\users\anacl\onedrive\documents\ufu\aedsi\2023-2\lista05\exercicioaeb\lista.c
+	<stdio.h>
+	<stdlib.h>
+	"lista.h"
+
